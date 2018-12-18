@@ -1,0 +1,14 @@
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  clear: both;
+  /* border: solid red; */
+  overflow: hidden;
+}
+.cell {
+  box-sizing: border-box;
+  padding: 4px;
+  float: left;
+  /* border: solid green; */
+}
