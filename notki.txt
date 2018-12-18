@@ -1,0 +1,19 @@
+instalacja node i git
+
+npm i - wyjasniam co to i dlaczego zawsze odpalamy
+npm start - pokazuje że dziala
+zmieniam coś w kodzie i pokazuje ze dalej działa
+package.json - co to (package'e skrypty itp)
+npm i -save -po co ten save
+
+----w projekcie szybka powtórka
+componenty propsy i state'y
+    prospy -nie da sie podmieniac
+    staty-da sie i wywołują też render()
+componenty - constructor i super(props)
+componenty - render(), componentDidMount itp
+
+----tworzymy connect5
+--------pliki do zrobienie: App.js + Board.js i Field.js
+
+

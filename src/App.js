@@ -55,7 +55,7 @@ class App extends Component {
     return (
       <div>
         {this.generateButtonsRow()}
-        <Board board={this.state.boardFields}></Board>
+        <Board board={this.state.boardFields}/>
       </div>
     );
   }
