@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import redImage from '../assets/red.png';
 import blueImage from '../assets/blue.png';
 import blankImage from '../assets/blank.png';
-import './style.css';
+import PropTypes from 'prop-types';
 
 var containerStyle = {
     border: "1px solid #999",
@@ -29,7 +29,7 @@ class Field extends Component {
 }
 
 Field.propTypes = {
-  color: "red" | "blue" | "blank",
+  color: PropTypes.oneOf(['blue', 'red', 'blank'])
 }
 
 export default Field;
