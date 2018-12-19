@@ -29,7 +29,7 @@ class Field extends Component {
 }
 
 Field.propTypes = {
-  color: PropTypes.oneOf(['blue', 'red', 'blank'])
+  color: PropTypes.oneOf(['blue', 'red', 'blank']).isRequired
 }
 
 export default Field;

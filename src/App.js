@@ -25,12 +25,12 @@ class App extends Component {
     return board;
   }
 
-  handleClick(rowIndex) {
+  handleClick(columnIndex) {
     for (let i = this.state.boardFields.length - 1; i >= 0; i--){
-      const element = this.state.boardFields[i][rowIndex];
+      const element = this.state.boardFields[i][columnIndex];
       if( element === "blank") {
         let boardFieldsCopy = this.state.boardFields;
-        boardFieldsCopy[i][rowIndex] = this.state.currentPlayer;
+        boardFieldsCopy[i][columnIndex] = this.state.currentPlayer;
         this.setState({boardFields: boardFieldsCopy});
         this.state.currentPlayer == "blue" ? this.setState({currentPlayer: "red"}) : this.setState({currentPlayer: "blue"});
         break;

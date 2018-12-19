@@ -15,5 +15,20 @@ componenty - render(), componentDidMount itp
 
 ----tworzymy connect5
 --------pliki do zrobienie: App.js + Board.js i Field.js
+-implementacja reprezentacji: 
+--implementacja Field.js fast
+--implementacja Board.js fast
 
+-App.js
+--dwa statey
+--boardFields jak narazie przykładowe dane
+--reneder Boarda z przykładowymi
+--implementacja funckji generującej buttony
+--dodanie handleClick(columnIndex)
+---setState wyjasnic dlaczego
 
+pokazanie problemu z tym że możemy przekazywać funkcje i 
+propsy w dół a nie w góre (chyba ze przez funckje)
+-na tablicy narysować graf pokazujący ten problem
+rozwiązanie-redux
+jak starczy czasu pokazać ten przykład z reduxem na react nativie
